@@ -1,5 +1,229 @@
+<!DOCTYPE html>
 <html>
+	<head>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<style>
+			body {
+			  background: #888888;
+			}
+
+			.top{
+			  background:#6495ED;
+			  position: fixed;
+			  botton:600px;
+			  right: 0;
+			  left: 0;
+			  z-index: 1;
+			}
+
+
+			.menu-btn:hover{
+			  color: white;
+			  cursor: pointer;
+			}
+			.menu-btn{
+			  background: none;
+			  border: none;
+			  padding: 10px;
+			}
+			.introduct {
+			  background:#ADD8E6
+			}
+			.larger-image {
+				width: 300px;
+			   margin-top: 100px;
+			  }
+			.larger-image:hover{
+			  opacity:0.5;
+			}
+			.thick-blue-border {
+			   border-color: 	#6495ED;
+			   border-width: 10px;
+			   border-style: solid;
+			   border-radius: 50%
+			}
+
+			.about {
+			  background: #6495ED;
+			  
+			}
+			p {
+			  border-color: 	#ADD8E6;
+			   border-width: 10px;
+			   border-style: solid;
+			}
+			.iconabout{
+			  border-color: 	#ADD8E6;
+			   border-width: 10px;
+			   border-style: solid;
+				height: 165px;
+			  padding-top: 25px;
+			  
+			}
+			.portfolio {
+			  background: #ADD8E6;
+			}
+			.contact {
+			  background: #6495ED;
+			}
+
+			.snowflake{
+			  font-size: 30px;
+			  margin-bottom: 20px;
+			}
+			.snowsmall {
+			  font-size: 20px;
+			  margin-bottom: 20px;
+			}
+			.footer {
+			   background:#ADD8E6;
+			}
+
+
+		</style>
+	</head>
 	<body>
-		<h1>This is Ham Toi</h1>
+		<div class="container">
+		  <div class="top" style="font-size:20px; font-family: aria">
+			<button class="menu-btn myportfolio pull-left"><b>MY PORTFOLIO</b></button>
+
+			<button class="menu-btn contactme-btn pull-right"><b>Contact me</b></button>
+			<button class="menu-btn portfolio-btn pull-right"><b>Portfolio</b></button>
+			<button class="menu-btn aboutme-btn pull-right"><b>About me</b></button>
+
+			<div style="clear: both"></div>
+		  </div>
+		  <div class="introduct text-center">
+			<img class="larger-image thick-blue-border" src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/14088597_1409316089084162_3808403733840579060_n.jpg?oh=81b4ae0ebd0df09f43ffb19db3d877e7&oe=5A04409E" alt="Ngoc picture"><br/>
+			<p style="font-family:'Arial Black', Gadget, serif; font-size:40px">LE THI BICH NGOC</p>
+			<i class="snowflake fa fa-snowflake-o" aria-hidden="true"></i>
+			<i class="snowsmall fa fa-snowflake-o" aria-hidden="true"></i>
+			<i class="snowflake fa fa-snowflake-o" aria-hidden="true"></i>
+			<p style="font-family:'Comic Sans MS', cursive, sans-serif; font-size:30px; margin-bottom:0px">WEB Developer</p>
+		  </div>
+		  <div class="about">
+			<h1 class="text-center" style="padding-top: 50px;">ABOUT ME</h1>
+			<div class="text-center" style="margin-top: -10px; padding-bottom:20px;">
+			  <i class="fa fa-window-minimize" aria-hidden="true"></i>
+			  <i class="fa fa-window-minimize" aria-hidden="true"></i>
+			  <i class="fa fa-window-minimize" aria-hidden="true"></i>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6" style="padding-left:40px">
+				<div>
+				  <p style="padding-left: 20px"><b>HEllO! I'm LE NGOC. My superior focus and attention to detail combined with my extensive knowledge of HTML CSS Javascript  makes me an exceptional choice. In my current role as a Junior Web Developer. I have developed web-based applications from design to coding and full implementation under the direction of the Senior Developer.</b></p>
+				</div>
+			  </div>
+			  <div class="col-sm-6" style="padding-right:30px">
+				<ul class="iconabout">
+				  <li><i class="fa fa-id-card" aria-hidden="true"></i><b> LE Ngoc</b></li>
+				  <li><i class="fa fa-envelope" aria-hidden="true"></i><b>lebichngoc090589@gmail.com</b></li>
+				  <li> <i class="fa fa-map-marker" aria-hidden="true" style="width:20px"></i><b>Paris, France</b></li>
+				</ul>
+			  </div>
+			</div>
+
+		  </div>
+		  <div class="portfolio text-center" style="padding-top: 50px;">
+			<h1>PORTFOLIO</h1>
+			<i class="fa fa-window-minimize" aria-hidden="true"></i>
+			<i class="fa fa-window-minimize" aria-hidden="true"></i>
+			<i class="fa fa-window-minimize" aria-hidden="true"></i>
+			
+			<div class="container">
+			  <div class="row row1">
+				<div class="col-sm-6">
+				  
+		   
+					<a href="https://codepen.io/Ngocle0905/full/KqGYgG/" target="_blank"> <img class="larger-image big-blue-border" src="https://image.ibb.co/inKfuk/Capture.png" alt="tributepicture"></a>
+				  </div>
+				  <div class="col-sm-6">
+					<a href="https://imgbb.com/" target="_blank"><img class="larger-image big-blue-border" class=" larger-image big-blue-border" src="https://image.ibb.co/nfcJba/Capture2.png" alt="Capture2" style="width:250px; height: 180px;margin-bottom:50px;"></a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+		  <div class="contact" style="padding-top:50px;padding-bottom:20px">
+			<h1 class="text-center">CONTACT ME</h1>
+			<div class="text-center">
+			  <i class="fa fa-ellipsis-h" style="font-size:40px;" aria-hidden="true"></i>
+			  <i class="fa fa-envelope" style="font-size:40px; margin:20px;" aria-hidden="true"></i>
+			  <i class="fa fa-ellipsis-h" style="font-size:40px;" aria-hidden="true"></i>
+			</div>
+			<form id="contactform">
+			  <div class="form-group row">
+				<label for="example-text-input1" class="col-2 col-form-label offset-2"><b>Name</b></label>
+				<div class="col-6">
+				  <input class="form-control" type="text" id="example-text-input1">
+				</div>
+			  </div>
+
+			  <div class="form-group row">
+				<label for="example-text-input2" class="col-2 col-form-label offset-2"><b>Phone number</b></label>
+				<div class="col-6">
+				  <input class="form-control" type="text" id="example-text-input2">
+				</div>
+			  </div>
+
+			  <div class="form-group row">
+				<label for="example-text-input3" class="col-2 col-form-label offset-2"><b>Adresse email</b></label>
+				<div class="col-6">
+				  <input class="form-control" type="text" id="example-text-input3">
+				</div>
+			  </div>
+			  <div class="form-group row">
+				<label for="example-text-input4" class="col-2 col-form-label offset-2"><b>Message</b></label>
+				<div class="col-6">
+				  <textarea rows="5" class="form-control" id="example-text-input4"></textarea>
+				</div>
+				<div class="col-2">
+				  <button type="submit" style="margin-top:90px">Send</button>
+				</div>
+			  </div>
+
+
+			</form>
+		  </div>
+		  <div class=" footer">
+			<div class="row">
+			  <div class="col-sm-6 text-center">
+				<h2 style="padding-top:20px;">About this page</h2>
+				<p style="font-size: 20px">Made by LE Ngoc</p>
+			  </div>
+			  <div class="col-sm-6 text-center">
+				<h3 style="padding-top:20px;">MY SOCIAL NETWORKS</h3>
+				<a href="https://www.facebook.com/le.bich.ngoc.0905" target="_blank"> <i class="fa fa-facebook-official" style="font-size: 40px" aria-hidden="true"></i> </a>
+				<a href="https://www.instagram.com/le_ngoc_vanessa/?hl=en" target="_blank"><i class="fa fa-instagram" style="font-size: 40px" aria-hidden="true"></i>
+			  </a>
+				<a href="https://www.linkedin.com/in/l%C3%AA-ng%E1%BB%8Dc-3a013a57/" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 40px" aria-hidden="true"></i>
+			  </a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+		
+		<script>
+			$(".aboutme-btn").click(function() {
+				$('html,body').animate({
+					scrollTop: $(".about").offset().top},
+					'slow');
+			});
+			$(".portfolio-btn").click(function() {
+				$('html,body').animate({
+					scrollTop: $(".portfolio").offset().top},
+					'slow');
+			});
+			$(".contactme-btn").click(function() {
+				$('html,body').animate({
+					scrollTop: $(".contact").offset().top},
+					'slow');
+			});
+		</script>
 	</body>
 </html>
